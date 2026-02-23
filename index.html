@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Page</title>
+</head>
+<body>
+    <h1>Welcome to My Basic HTML Page I used an ai prompt to make this thing i dont recommend you do that</h1>
+    <p>This is a simple HTML I used an ai prompt to make this thing i dont recommend you do that imma keep typing stuff until i get bored or somthing else intresting happens.</p>
+    <img src="https://www.icegif.com/wp-content/uploads/2023/06/icegif-153.gif" alt="icegif" style="max-width:300px;display:block;margin:20px auto;">
+    <p style="text-align:center;font-size:small;">Image credit: <a href="https://www.icegif.com/" target="_blank">Wikimedia Commons</a></p>
+    <h2 style="text-align:center;">This is a heading 2</h2>
+    <p style="text-align:center;">Bop</p>
+    <img id="butterDogImg" src="https://media1.tenor.com/m/GZvnfUaFKYgAAAAd/butter-dog.gif" alt="Butter Dog" style="max-width:300px;display:block;margin:20px auto;cursor:pointer;">
+        <script>
+        // Array of color schemes
+        const coloschemes = [
+            { bg: '#22223b', fg: '#f2e9e4' },
+            { bg: '#f72585', fg: '#fff' },
+            { bg: '#4361ee', fg: '#f9f9f9' },
+            { bg: '#06d6a0', fg: '#222' },
+            { bg: '#ffd166', fg: '#073b4c' },
+            { bg: '#ffbe0b', fg: '#3a0ca3' },
+            { bg: '#8338ec', fg: '#fffcf2' },
+            { bg: '#ff006e', fg: '#fff' },
+            { bg: '#48cae4', fg: '#03045e' },
+            { bg: '#b5179e', fg: '#fff' }
+        ];
+        // Pick a random color scheme
+        constoschemes[Math.floor(Math.random() * coloschemes.length)];
+        document.body.style.backgroundColor = scheme.bg;
+        document.body.style.color = scheme.fg;
+        // Optionally, update all links for contrast
+        document.querySelectorAll('a').forEach(a => {
+            a.style.color = scheme.fg;
+            a.style.textDecoration = 'underline';
+        });
+
+        // Make the second image clickable to open YouTube link
+        document.getElementById('butterDogImg').addEventListener('click', function() {
+            window.open('https://www.youtube.com/watch?v=SO80DcTz-5w', '_blank');
+        });
+        </script>
+    <p style="text-align:center;font-size:small;">Image credit: <a href="https://tenor.com/view/butter-dog-gif-GZvnfUaFKYgAAAAd" target="_blank">Tenor</a></p>
+
+    <script>
+    // Array of color schemes
+    const colorSchemes = [
+        { bg: '#22223b', fg: '#f2e9e4' },
+        { bg: '#f72585', fg: '#fff' },
+        { bg: '#4361ee', fg: '#f9f9f9' },
+        { bg: '#06d6a0', fg: '#222' },
+        { bg: '#ffd166', fg: '#073b4c' },
+        { bg: '#ffbe0b', fg: '#3a0ca3' },
+        { bg: '#8338ec', fg: '#fffcf2' },
+        { bg: '#ff006e', fg: '#fff' },
+        { bg: '#48cae4', fg: '#03045e' },
+        { bg: '#b5179e', fg: '#fff' }
+    ];
+    // Pick a random color scheme
+    const scheme = colorSchemes[Math.floor(Math.random() * colorSchemes.length)];
+    document.body.style.backgroundColor = scheme.bg;
+    document.body.style.color = scheme.fg;
+    // Optionally, update all links for contrast
+    document.querySelectorAll('a').forEach(a => {
+        a.style.color = scheme.fg;
+        a.style.textDecoration = 'underline';
+    });
+    </script>
+</body>
